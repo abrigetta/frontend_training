@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(120, 194, 243);
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+.Question_container{
+    background-color: rgb(162, 175, 182);
+    width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 2px rgb(47, 8, 8);
+}
+.Question_header{
+    padding: 10px;
+}
+h1{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.5 rem;
+    margin:1rem 
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    width: 100%;
+    background-color: rgb(61, 119, 212);
+    display: block;
+    color: rgb(92, 10, 59);
+    padding: 1.1rem;
+    border: none;
+    font-size: 1.5rem;
+    font-family: inherit;
+}
+button:hover{
+    background-color: rgb(0, 149, 255);
+}
+button:focus{
+    background-color: rgb(142, 223, 127);
+    outline: none;
+}

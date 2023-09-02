@@ -1,0 +1,10 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    box-sizing: border-box;
+    padding: 1px;
+}
+textarea{
+    width: 80%;
+}

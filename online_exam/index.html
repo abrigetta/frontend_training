@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="C:\Brigetta Antony Dhasan\ONLINE EXAM WEBSITE\online-exam-checklist-pencil-computer-monitor_153097-220.jpg">
+        </div>
+        <div class="title">
+            <h1>Online Exam</h1>
+        </div>
+        <div class="navbar_list">
+            <a href="#">About</a>
+            <a href="#">Contacts</a>
+            <a href="#">Services</a>
+            <!--<button class="btn">-->
+            <a href="#">Home</a></button>
+        </div>
+    </nav>
+    <div class="login">
+        <h1>Controller Login</h1>
+        Name<br><br>
+        <input type="text" name="name1" id="name"><br><br>
+        <!--Subject<br><br>
+        <input type="text"  name="" id="subject"><br><br>
+        <select id="subject" name="subject">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Javascript">Javascript</option>
+        </select><br><br>-->
+        Email<br><br>
+        <input type="text"  name="email1" id="email"><br><br>
+        Password<br><br>
+        <input type="password" name="password1" id="password"><br><br>
+        <button type="submit" onSubmit="required()" onclick="window.location.href = 'Questions.html';">Login</button><br><br>
+        <!--<button> Login</button><br><br>-->
+        <script>
+        function required(){
+            var empt = document.name1.email1.password1;
+            if (empt === ""){
+                alert("Please input a Value");
+                return false;
+            }else  {
+            alert('Code has accepted : you can try another');
+                return true; 
+                }
+        }
+        </script>
+        <a href="#">Forgot password</a>
+        
+    </div>
+    <div class="footer">
+</div>
+</body>
+</html>

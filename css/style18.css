@@ -1,0 +1,33 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{font-size: 25pt;}
+p{font-size: 10pt;}
+div.bigbox{
+    width: 152px;
+    height: 173px;
+    background-color: white;
+    padding: 0.1%;
+}
+.hrline{
+    /*align-items: block;*/
+    height: 40px;
+
+}
+.ex7_S_image{
+    display: block;
+    margin-left:1px;
+    margin-right: auto;
+    width: 30px;
+    height: 40px;
+}
+.univ{
+    width:150px;
+    height:40px;
+    border:2px solid white;
+    background-color: blue;
+    border-radius: 10px;
+    color: white; 
+    text-align: center;
+    line-height: 40px;
+}

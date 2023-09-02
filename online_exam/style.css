@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(67, 146, 170);
+    display: inline-flex;
+
+}
+.navbar .logo{
+    height:20px;
+    width:30px;
+    margin-left: 40px;
+    
+}
+.navbar .logo img{
+    height: 80px;
+    width:100px;
+    margin-top: 20px;
+    border-radius: 20%;
+}
+.navbar .title h1{
+    font-size: 50px;
+    color:rgb(136, 179, 211);
+    margin: 28px;
+    margin-left: 100px;
+    
+}
+.navbar .navbar_list{
+    margin-top: 60px;
+    margin-left: 20%;
+}
+.navbar .navbar_list a{
+    font-size: 25px;
+    margin: 30px;
+    padding:10px;
+    color:rgb(114, 190, 248);
+    text-decoration: none;
+}
+.navbar .navbar_list .btn{
+    border-color:white;
+    background-color: azure;
+    
+}
+.navbar_list a:hover{
+    background-color: rgb(73, 105, 134);
+}
+.login h1{
+    color:rgb(49, 54, 58);
+    padding: 20px;
+
+}
+.login{
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
+.login input{
+    height: 25px;
+    width: 300px;
+}
+.login button{
+    color:rgb(6, 32, 55);
+    height: 30px;
+    width: 100px;
+    border-color: rgb(48, 54, 52);
+    cursor: pointer;
+    font-size: 23px;
+}
+button:hover{
+    background-color: rgb(124, 179, 211);
+}
+.login select{
+    height: 25px;
+    width: 300px;
+}
+.footer{ 
+    width:100%;
+    height:60px;
+    background-color:  rgb(67, 146, 170);
+    margin-top:50px;
+}
+

@@ -1,0 +1,76 @@
+body{background-color:#d25d0e;
+    font-family: 'Courier New', Courier, monospace;}
+    div.box_1{
+        width: 600px;
+        height: 80px;
+        background-color:pink;
+        padding: 20px;
+        margin: auto;
+        border:5px solid rgb(102, 98, 98);
+        
+    }
+    .box_2{
+        width:150px;
+        height:30px;
+        border:3px solid black;
+        background-color:Yellow;
+        color: black; 
+        line-height: 20px;
+        padding: 10px;
+        float:right;
+        margin-right:10px;
+        text-decoration: underline;
+        text-align:center;
+    }
+    h1{
+        color: red;}
+    h2{
+        color:white;}
+    p{font-size: 25pt;}
+    h3{
+        color:white;}
+    p{font-size: 10pt;}
+    div.bigbox{
+        width: 152px;
+        height: 173px;
+        background-color: white;
+        padding: 0.1%;
+    }
+    .hrline{
+        /*align-items: block;*/
+        height: 40px;
+        background-color: yellow;
+    }
+    .ex7_S_image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30px;
+        height: 40px;
+    }
+    .univ{
+        width:150px;
+        height:40px;
+        border:2px solid white;
+        background-color: blue;
+        border-radius: 10px;
+        color: white; 
+        text-align: center;
+        line-height: 40px;
+    }
+    .dotbox{
+        width: 450px;
+        height: 550px;
+        background-color:rgb(217, 255, 192);
+        padding: 20px;
+        border:3px dotted rgb(52, 46, 46);
+        margin: auto;
+    }
+    .greenbox{
+        width: 250px;
+        height: 80px;
+        background-color:teal;
+        border-radius: 10px;
+        border:3px solid rgb(78, 84, 84);
+        text-align: center;
+    }

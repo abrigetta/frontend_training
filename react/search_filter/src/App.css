@@ -1,0 +1,16 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.app input{
+  height: 40px;
+  width: 300px;
+  font-size: 20px;
+  padding-left: 10px;
+}

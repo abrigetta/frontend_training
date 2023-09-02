@@ -1,0 +1,43 @@
+body{
+    background-color: teal;
+    font-family: 'Courier New', Courier, monospace;
+}
+.line{
+    height: 40px;
+    background-color: green;
+    color: red;
+    text-transform: capitalize;
+    text-align: justify;
+    line-height: 65px;
+    width: 300px;
+    margin:10px -11px;
+    float: left;
+    clear: right;
+
+}
+.dottedbox{
+    background-color: white;
+    border:3px dotted black;
+    width:800px;
+    height:600px;
+    text-transform:capitalize;
+    top: 50px;
+    right: 50px;
+    text-align:justify;
+
+}span.a{
+    background-color: grey;
+    display:inline;/** default for span**/
+}
+span.b{
+    background-color: red;
+    display:inline;
+}
+.c{
+    background-color: yellow;
+    display:inline; 
+}
+p::first-letter{
+    font-size:3rem;
+    font-weight:bold;
+}
